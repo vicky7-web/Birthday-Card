@@ -1,0 +1,95 @@
+.page {
+  width: 25%;
+  height: 25%;
+}
+.logo {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+
+  padding-left: 320px;
+  height: 100px;
+}
+
+.logo .text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.container {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+.happy {
+  font-family: Cursive;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.birthday {
+  color: Blue;
+  font-family: Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: -120px;
+}
+
+
+.left-content {
+  width: 50%;
+  text-align: center;
+}
+
+.left-content h1 {
+
+  font-weight: bold;
+
+}
+
+.left-content p {
+  font-size: 18px;
+
+}
+
+.right-content {
+  width: 50%;
+  text-align: center;
+}
+
+
+.right-content img {
+  padding-top: 70px;
+  width: 50%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 30px;
+  border: 6px solid #007bff; /* Blue border color */
+  padding: 0px; /* Add some padding to the image */
+  border-radius: 10px; /* Round corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.name-tag {
+  background-color:Blue;
+  color: #fff;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+.name-tag h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.name-tag p {
+  font-size: 16px;
+ margin-bottom: 10px;;
+}
